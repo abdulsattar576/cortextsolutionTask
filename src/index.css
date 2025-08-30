@@ -1,0 +1,79 @@
+  /* Container card */
+.profile-card {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background: #fff;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Header background */
+.profile-header {
+  background: linear-gradient(135deg, #0077b5, #00a0dc); /* LinkedIn colors */
+  height: 120px;
+  position: relative;
+}
+
+/* Profile image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: absolute;
+  bottom: -60px; /* overlap */
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+
+/* Content */
+.profile-content {
+  padding: 80px 20px 20px; /* push down because of image overlap */
+}
+
+.profile-content h3 {
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.profile-content p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}
+
+/* Skills section */
+.profile-content h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #0077b5;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+.profile-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.profile-content ul li {
+  background: #f4f4f4;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.profile-content ul li:hover {
+  background: #0077b5;
+  color: #fff;
+  cursor: pointer;
+}
