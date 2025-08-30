@@ -1,38 +1,34 @@
-  /* Container card */
 .profile-card {
   max-width: 400px;
   margin: 50px auto;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #fff;
   font-family: Arial, sans-serif;
   overflow: hidden;
   text-align: center;
 }
 
-/* Header background */
 .profile-header {
-  background: linear-gradient(135deg, #0077b5, #00a0dc); /* LinkedIn colors */
+  background: linear-gradient(135deg, #0077b5, #00a0dc);
   height: 120px;
   position: relative;
 }
 
-/* Profile image */
 .profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   position: absolute;
-  bottom: -60px; /* overlap */
+  bottom: -60px;
   left: 50%;
   transform: translateX(-50%);
   object-fit: cover;
 }
 
-/* Content */
 .profile-content {
-  padding: 80px 20px 20px; /* push down because of image overlap */
+  padding: 80px 20px 20px;
 }
 
 .profile-content h3 {
@@ -47,7 +43,6 @@
   margin: 4px 0;
 }
 
-/* Skills section */
 .profile-content h2 {
   margin-top: 20px;
   font-size: 18px;
@@ -76,4 +71,31 @@
   background: #0077b5;
   color: #fff;
   cursor: pointer;
+}
+/* task2 style */
+
+ 
+.service-list {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  padding: 20px;
+}
+
+ 
+.service-card {
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: transform 0.2s;
+
+}
+
+.service-card:hover {
+  transform: translateY(-5px); 
 }
