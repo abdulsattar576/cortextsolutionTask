@@ -1,7 +1,7 @@
  import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Task1 from './pages/Task1'
-import ServiceList from './pages/Task2.'
+import ServiceList from './pages/Task2'
  
 
  const App = () => {
