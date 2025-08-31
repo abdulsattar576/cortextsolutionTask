@@ -99,3 +99,35 @@
 .service-card:hover {
   transform: translateY(-5px); 
 }
+/* task3 */
+ /* styles.css or App.css */
+.faq-item {
+  display: flex;
+  justify-content: space-between; /* better than center for Q + Icon */
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container {
+  border: 1px solid #ccc;
+  margin: 10px auto;
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s;
+}
+
+.container:hover {
+  transform: scale(1.01);
+}
+
+.answer {
+  margin-top: 8px;
+  color: #444;
+  line-height: 1.4;
+}
