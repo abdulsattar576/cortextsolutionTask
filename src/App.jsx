@@ -4,6 +4,7 @@ import Task1 from './pages/Task1'
 import ServiceList from './pages/Task2'
 import FAQList from './pages/Task3'
 import LandingPage from './pages/Task4'
+import Task5 from './pages/Task5'
  
 
  const App = () => {
@@ -14,6 +15,7 @@ import LandingPage from './pages/Task4'
         <Route path='/task2' element={<ServiceList/>}/>
         <Route path='/task3' element={<FAQList/>}/>
         <Route path='/task4' element={<LandingPage/>}/>
+        <Route path='/task5' element={<Task5/>}/>
        </Routes>
      </div>
    )
