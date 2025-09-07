@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Task1 from './pages/Task1'
 import ServiceList from './pages/Task2'
 import FAQList from './pages/Task3'
+import LandingPage from './pages/Task4'
  
 
  const App = () => {
@@ -12,6 +13,7 @@ import FAQList from './pages/Task3'
         <Route path='/' element={<Task1/>}/>
         <Route path='/task2' element={<ServiceList/>}/>
         <Route path='/task3' element={<FAQList/>}/>
+        <Route path='/task4' element={<LandingPage/>}/>
        </Routes>
      </div>
    )
