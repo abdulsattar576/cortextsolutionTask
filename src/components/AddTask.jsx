@@ -16,7 +16,7 @@ const AddTask = ({ onTaskAdded }) => {
 
     if (response.ok) {
       const addedTask = await response.json();
-      onTaskAdded(addedTask); // update parent component state
+      onTaskAdded(addedTask); 
       setNewTaskText("");
     } else {
       console.error("Failed to add task");
