@@ -2,18 +2,18 @@
 import TaskList from "../components/TaskList";
 import AddTask from "../components/AddTask";
  
+
 const TaskApp = () => {
   const [tasks, setTasks] = useState([]);
 
- 
   useEffect(() => {
     fetch("http://localhost:5000/api/tasks")
-      .then(res => res.json())
-      .then(data => setTasks(data));
+      .then((res) => res.json())
+      .then((data) => setTasks(data));
   }, []);
- 
+
   const handleTaskAdded = (newTask) => {
-    setTasks(prev => [...prev, newTask]);
+    setTasks((prev) => [...prev, newTask]);
   };
 
   return (
