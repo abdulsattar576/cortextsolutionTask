@@ -2,8 +2,8 @@
 
 const Task6 = () => {
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true); // Track loading state
-  const [error, setError] = useState(null);     // Track error state
+  const [loading, setLoading] = useState(true);  
+  const [error, setError] = useState(null);      
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
